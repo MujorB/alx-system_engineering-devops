@@ -1,1 +1,2 @@
-pwd path_name
+#!bin/bash
+pwd current_working_dir
