@@ -1,1 +1,2 @@
-#!\bin\bash 14-findthatword
+#!/bin/bash
+sort | uniq -u
