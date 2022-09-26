@@ -11,11 +11,11 @@ Altogether:  0.0%
 Mandatory: 0.0%  
 Optional: no optional tasks  
 ```
-### [**Concepts**](tasks/concepts/)
+### [**Concepts**](concept/)
 > **For this project, we expect you to look at these concepts:**  
-> **[Network basics](tasks/concepts/networkBasics.md)**  
-> **[Docker](tasks/concepts/docker.md)**  
-> **[Web stack debugging](tasks/concepts/webstackDebugging.md)**  
+> **[Network basics](concept/networkBasics.md)**  
+> **[Docker](concept/docker.md)**  
+> **[Web stack debugging](concept/webstackDebugging.md)**  
 
 ### **Background Context**  
 > The Webstack debugging series will train you in the art of debugging. Computers and software rarely work the way we want (that’s the “fun” part of the job!).  
