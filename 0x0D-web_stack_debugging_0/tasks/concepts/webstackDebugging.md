@@ -1,15 +1,15 @@
 ## **Web stack debugging**
-**Intro**  
+### **Intro**  
 
 > Debugging usually takes a big chunk of a software engineer’s time. The art of debugging is tough and it takes years, even decades to master, and that is why seasoned software engineers are the best at it… experience. They have seen lots of broken code, buggy systems, weird edge cases and race conditions.
 
 ![image](https://user-images.githubusercontent.com/95404943/192253253-f6f62168-8b6a-422c-a095-55ec4515acb7.png)
 
-#### Non-exhaustive guide to debugging
+### Non-exhaustive guide to debugging
 **School specific**
 > If you are struggling to get something right that is run on the checker, like a Bash script or a piece of code, keep in mind that you can simulate the flow by starting a Docker container with the distribution that is specified in the requirements and by running your code. Check the [Docker](docker.md) concept page for more info.
 
-#### **Test and verify your assumptions**  
+### **Test and verify your assumptions**  
 The idea is to ask a set of questions until you find the issue. For example, if you installed a web server and it isn’t serving a page when browsing the IP, here are some questions you can ask yourself to start debugging:  
 > - Is the web server started? - You can check using the service manager, also double check by checking process list.
 > - On what port should it listen? - Check your web server configuration
@@ -20,7 +20,7 @@ The idea is to ask a set of questions until you find the issue. For example, if 
 > - Can I connect to the HTTP port from the location I am browsing from? - `curl` is your friend
 *There is a good chance that at this point you will already have found part of the issue.*
 
-#### Get a quick overview of the machine state
+### Get a quick overview of the machine state
 [Youtube video First 5 Commands When I Connect on a Linux Server](https://www.youtube.com/watch?v=1_gqlbADaAw&feature=youtu.be)
 
 When you connect to a server/machine/computer/container you want to understand what’s happened recently and what’s happening now, and you can do this with [5 commands]() in a minute or less:
@@ -58,7 +58,7 @@ There are often 3 ways of solving the issue:
   2. increase the machine resources (adding memory, CPU, disk space…)
   3. distributing the resource usage to other machines
 
-#### **Network issue**
+### **Network issue**
 For the machine level, you want to ask yourself these questions:
 
 - Does the server have the expected network interfaces and IPs up and running? `ifconfig`
@@ -67,20 +67,19 @@ For the machine level, you want to ask yourself these questions:
 - Does the server have the correct firewall rules? `iptables`, `ufw`:
   - `iptables -L`
   - `sudo ufw status`
-#### **Process issue**
-
+### **Process issue**
 If a piece of Software isn’t behaving as expected, it can obviously be because of above reasons… but the good news is that there is more to look into (there is ALWAYS more to look into actually).
 
-Is the software started? init, init.d:
-service NAME_OF_THE_SERVICE status
-/etc/init.d/NAME_OF_THE_SERVICE status
-Is the software process running? pgrep, ps:
-pgrep -lf NAME_OF_THE_PROCESS
-ps auxf
-Is there anything interesting in the logs? look for log files in /var/log/ and tail -f is your friend
-Debugging is fun
+- Is the software started? `init`, `init.d`:
+  - `service NAME_OF_THE_SERVICE status`
+  - `/etc/init.d/NAME_OF_THE_SERVICE status`
+- Is the software process running? `pgrep`, `ps`:
+  - `pgrep -lf NAME_OF_THE_PROCESS  
+  - `ps auxf`
+- Is there anything interesting in the logs? look for log files in `/var/log/` and `tail -f` is your friend
+### **Debugging is fun**
 Debugging can be frustrating, but it will definitely be part of your job, it requires experience and methodology to become good at it. The good news is that bugs are never going away, and the more experienced you become, trickier bugs will be assigned to you! Good luck :)
 
-
+![image](https://user-images.githubusercontent.com/95404943/192259864-0b93c6df-a118-4400-87e4-485eb190e49c.png)
 
 Copyright © 2022 ALX, All rights reserved.
