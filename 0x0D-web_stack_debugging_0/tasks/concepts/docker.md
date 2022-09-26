@@ -1,6 +1,7 @@
 ## **Docker**
 **Readme**  
-> [What is Docker and why is it popular?](https://www.zdnet.com/article/what-is-docker-and-why-is-it-so-darn-popular/)  
+> [**What is Docker and why is it popular?**](https://www.zdnet.com/article/what-is-docker-and-why-is-it-so-darn-popular/)  
+
 Let’s first pull a Docker image and run a container:
 ```
 vagrant@ubuntu-xenial:~$ docker ps
@@ -20,9 +21,9 @@ CONTAINER ID        IMAGE               COMMAND             CREATED             
 e1fc0d4bbb5d        ubuntu:16.04        "/bin/bash"         About a minute ago   Up About a minute                       keen_blackwell
 vagrant@ubuntu-xenial:~$
 ```
-> Note that docker command will pull the Ubuntu docker container image from the Internet and run it. I let you look at the meaning of the flags using the command docker run --help, the main idea is that it keeps the container up and running.
-> 
-To execute a command on the Docker container, use docker exec:
+> Note that docker command will pull the Ubuntu docker container image from the Internet and run it. I let you look at the meaning of the flags using the command `docker run --help`, the main idea is that it keeps the container up and running.
+
+To execute a command on the Docker container, use `docker exec`:
 ```
 vagrant@ubuntu-xenial:~$ docker exec -i e1fc0d4bbb5d hostname
 e1fc0d4bbb5d
@@ -30,16 +31,16 @@ vagrant@ubuntu-xenial:~$ hostname
 ubuntu-xenial
 vagrant@ubuntu-xenial:~$
 ```
-If you want to connect to your Docker container and use Bash, you need to use docker exec -ti:
+If you want to connect to your Docker container and use Bash, you need to use `docker exec -ti`:
 ```
-vagrant@ubuntu-xenial:~$ docker exec -ti e1fc0d4bbb5d /bin/bash
+vagrant@ubuntu-xenial:~$ `docker exec -ti e1fc0d4bbb5d /bin/bash`
 root@e1fc0d4bbb5d:/# echo "I am in $(hostname) Docker container"
 I am in e1fc0d4bbb5d Docker container
 root@e1fc0d4bbb5d:/# exit
 exit
 vagrant@ubuntu-xenial:~$
 ```
-If you want to stop a container, use docker stop:
+If you want to stop a container, use `docker stop`:
 ```
 vagrant@ubuntu-xenial:~$ docker ps
 CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
