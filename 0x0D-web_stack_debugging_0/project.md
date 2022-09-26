@@ -12,10 +12,10 @@ Mandatory: 0.0%
 Optional: no optional tasks  
 ```
 ### **Concepts**
-For this project, we expect you to look at these concepts:  
-[Network basics]()
-[Docker]()
-[Web stack debugging]()
+**For this project, we expect you to look at these concepts:**  
+**[Network basics]()**  
+[Docker]()  
+[Web stack debugging]()  
 
 
 Background Context
