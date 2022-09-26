@@ -15,7 +15,7 @@ Optional: no optional tasks
 > **For this project, we expect you to look at these concepts:**  
 > **[Network basics](networkBasics.md)**  
 > **[Docker](docker.md)**  
-> **[Web stack debugging](webstackDebug.md)**  
+> **[Web stack debugging](webstackDebugging.md)**  
 
 ### **Background Context**  
 > The Webstack debugging series will train you in the art of debugging. Computers and software rarely work the way we want (that’s the “fun” part of the job!).  
