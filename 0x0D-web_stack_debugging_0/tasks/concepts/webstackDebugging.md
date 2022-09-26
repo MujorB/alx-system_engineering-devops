@@ -26,36 +26,36 @@ The idea is to ask a set of questions until you find the issue. For example, if 
 When you connect to a server/machine/computer/container you want to understand what’s happened recently and what’s happening now, and you can do this with [5 commands]() in a minute or less:
 
 #### **`w`**
-> shows server [uptime](https://www.techtarget.com/whatis/definition/uptime-and-downtime) which is the time during which the server has been continuously running
-> shows which users are connected to the server
-> load average will give you a good sense of the server health - (read more about load [here](https://scoutapm.com/blog/understanding-load-averages) and [here](https://www.brendangregg.com/blog/2017-08-08/linux-load-averages.html))
+> - shows server [uptime](https://www.techtarget.com/whatis/definition/uptime-and-downtime) which is the time during which the server has been continuously running
+> - shows which users are connected to the server
+> - load average will give you a good sense of the server health - (read more about load [here](https://scoutapm.com/blog/understanding-load-averages) and [here](https://www.brendangregg.com/blog/2017-08-08/linux-load-averages.html))
 #### **`history`**
 > - shows which commands were previously run by the user you are currently connected to  
 > - you can learn a lot about what type of work was previously performed on the machine, and what could have gone wrong with it  
 > - where you might want to start your debugging work
 #### **`top`**
-shows what is currently running on this server
-order results by CPU, memory utilization and catch the ones that are resource intensive
-df
-shows disk utilization
-netstat
-what port and IP your server is listening on
-what processes are using sockets
-try netstat -lpn on a Ubuntu machine
-Machine
+> - shows what is currently running on this server
+> - order results by CPU, memory utilization and catch the ones that are resource intensive
+#### **`df`**
+> - shows disk utilization
+#### **`netstat`**
+> - what port and IP your server is listening on  
+> - what processes are using sockets  
+> - try `netstat -lpn` on a Ubuntu machine
+### **Machine**
 Debugging is pretty much about verifying assumptions, in a perfect world the software or system we are working on would be working perfectly, the server is in perfect shape and everybody is happy. But actually, it NEVER goes this way, things ALWAYS fail (it’s tremendous!).
 
 For the machine level, you want to ask yourself these questions:
 
-Does the server have free disk space? - df
-Is the server able to keep up with CPU load? - w, top, ps
-Does the server have available memory? free
-Are the server disk(s) able to keep up with read/write IO? - htop
-If the answer is no for any of these questions, then that might be the reason why things are not going as expected. There are often 3 ways of solving the issue:
-
-free up resources (stop process(es) or reduce their resource consumption)
-increase the machine resources (adding memory, CPU, disk space…)
-distributing the resource usage to other machines
+- Does the server have free disk space? - `df`
+- Is the server able to keep up with CPU load? - `w`, `top`, `ps`
+- Does the server have available memory? `free`
+- Are the server disk(s) able to keep up with read/write IO? - `htop`
+If the answer is no for any of these questions, then that might be the reason why things are not going as expected.  
+There are often 3 ways of solving the issue:
+  1. free up resources (stop process(es) or reduce their resource consumption)
+  2. increase the machine resources (adding memory, CPU, disk space…)
+  3. distributing the resource usage to other machines
 Network issue
 For the machine level, you want to ask yourself these questions:
 
