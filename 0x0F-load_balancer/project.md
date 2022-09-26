@@ -11,7 +11,9 @@ An auto review will be launched at the deadline
 For this project, we expect you to look at these concepts:  
 > - [Load balancer](concepts/load_balancer.md)  
 > - [Web stack debugging](concepts/webstackdebugging.md)  
+
 ![image](https://user-images.githubusercontent.com/95404943/192270903-00abc87c-3c4a-4933-8ee5-a374b353b350.png)  
+
 ## **Background Context**
 You have been given 2 additional servers:
 > - gc-[STUDENT_ID]-web-02-XXXXXXXXXX  
