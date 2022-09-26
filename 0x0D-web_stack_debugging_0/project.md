@@ -11,10 +11,10 @@ Altogether:  0.0%
 Mandatory: 0.0%  
 Optional: no optional tasks  
 ```
-### [**Concepts**](tasks/concepts/)
+### [**Concepts**](concept/)
 > **For this project, we expect you to look at these concepts:**  
-> **[Network basics](tasks/concepts/networkBasics.md)**  
-> **[Docker](tasks/concepts/docker.md)**  
+> **[Network basics](concept/networkBasics.md)**  
+> **[Docker](concept/docker.md)**  
 > **[Web stack debugging](tasks/concepts/webstackDebugging.md)**  
 
 ### **Background Context**  
