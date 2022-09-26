@@ -12,12 +12,11 @@ Mandatory: 0.0%
 Optional: no optional tasks  
 ```
 ### **Concepts**
-**For this project, we expect you to look at these concepts:**  
+> **For this project, we expect you to look at these concepts:**  
+![image](https://user-images.githubusercontent.com/95404943/192237235-edaa4034-cc23-4544-8a5a-908692fefdb4.png)
 **[Network basics]()**  
-[Docker]()  
-[Web stack debugging]()  
-
-
+**[Docker]()**  
+**[Web stack debugging]()**  
 Background Context
 The Webstack debugging series will train you in the art of debugging. Computers and software rarely work the way we want (that’s the “fun” part of the job!).
 
