@@ -7,12 +7,12 @@ Project will start Sep 26, 2022 6:00 AM, must end by Sep 27, 2022 6:00 AM
 was released at Sep 26, 2022 12:00 PM
 An auto review will be launched at the deadline
 ```
-### **Concepts**
+## **Concepts**
 For this project, we expect you to look at these concepts:  
-[Load balancer]()  
-[Web stack debugging]()  
-![image](https://user-images.githubusercontent.com/95404943/192270903-00abc87c-3c4a-4933-8ee5-a374b353b350.png)
-### **Background Context**
+[Load balancer](concepts/load_balancer.md)  
+[Web stack debugging](concepts/webstackdebugging.md)  
+![image](https://user-images.githubusercontent.com/95404943/192270903-00abc87c-3c4a-4933-8ee5-a374b353b350.png)  
+## **Background Context**
 You have been given 2 additional servers:
 > - gc-[STUDENT_ID]-web-02-XXXXXXXXXX  
 > - gc-[STUDENT_ID]-lb-01-XXXXXXXXXX  
@@ -20,14 +20,14 @@ Let’s improve our web stack so that there is [redundancy](https://en.wikipedia
 
 For this project, you will need to write Bash scripts to automate your work. All scripts must be designed to configure a brand new Ubuntu server to match the task requirements.
 
-### **Resources**
+## **Resources**
 **Read** or **watch**:
 
 > [Introduction to load-balancing and HAproxy  ](https://www.digitalocean.com/community/tutorials/an-introduction-to-haproxy-and-load-balancing-concepts)  
 > [HTTP header](https://www.techopedia.com/definition/27178/http-header)  
 > [Debian/Ubuntu HAProxy packages](https://haproxy.debian.net/)
 
-### **Requirements**
+## **Requirements**
 **General**
 > Allowed editors: `vi`, `vim`, `emacs`  
 > All your files will be interpreted on `Ubuntu 16.04 LTS`  
@@ -44,7 +44,7 @@ Name	Username	IP	State
 7216-web-02				
 7216-lb-01				
 ```
-## Tasks
+# Tasks
 ## **`0. Double the number of webservers`** mandatory
 > In this first task you need to configure `web-02` to be identical to `web-01`. Fortunately, you built a Bash script during your [web server project](https://github.com/MujorB/alx-system_engineering-devops/tree/main/0x0C-web_server), and they’ll now come in handy to easily configure `web-02`. Remember, always try to automate your work!
 > 
