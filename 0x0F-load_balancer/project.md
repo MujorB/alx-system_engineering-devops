@@ -109,7 +109,7 @@ GitHub repository: alx-system_engineering-devops
 Directory: 0x0F-load_balancer
 File: 1-install_load_balancer
    
-> ## **`2. Add a custom HTTP header with Puppet`** advanced
+## **`2. Add a custom HTTP header with Puppet`** advanced
 > Just as in task #0, we’d like you to automate the task of creating a custom HTTP header response, but with Puppet.
 >
 > - The name of the custom HTTP header must be `X-Served-By`
