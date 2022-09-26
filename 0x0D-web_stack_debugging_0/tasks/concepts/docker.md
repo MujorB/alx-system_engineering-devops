@@ -33,7 +33,7 @@ vagrant@ubuntu-xenial:~$
 ```
 If you want to connect to your Docker container and use Bash, you need to use `docker exec -ti`:
 ```
-vagrant@ubuntu-xenial:~$ `docker exec -ti e1fc0d4bbb5d /bin/bash`
+vagrant@ubuntu-xenial:~$ docker exec -ti e1fc0d4bbb5d /bin/bash
 root@e1fc0d4bbb5d:/# echo "I am in $(hostname) Docker container"
 I am in e1fc0d4bbb5d Docker container
 root@e1fc0d4bbb5d:/# exit
