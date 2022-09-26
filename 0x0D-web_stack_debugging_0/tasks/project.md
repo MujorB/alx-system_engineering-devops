@@ -11,7 +11,7 @@ Altogether:  0.0%
 Mandatory: 0.0%  
 Optional: no optional tasks  
 ```
-### [**Concepts**](concepts.md)
+### [**Concepts**](concepts/)
 > **For this project, we expect you to look at these concepts:**  
 > **[Network basics]()**  
 > **[Docker]()**  
