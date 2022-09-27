@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# Script that configures Nginx server with a custom header
+
+sudo app-get -y update
+sudo app-get -y install nginx
+sudo ufw allow 'Nginx HTTP'
+sudo chown -R $USER:$USER /var/www/html/
+echo 'Hello World!' > /var/www/html/index.nginx-debian.html
+sudo chown -R $USER:$USER /etc/nginx/sites-available/
+
+sed -i "s/server_name _;/server_name _;\n\trewrite ^\/redirect_me https:\/\/github.com\/MujorB permanent;\n\n\terror_page 404 \/custom_404.html;\n\tlocation = \/custom_404.html {\n\t\troot \/usr\/share\/nginx\/html;\n\t\tinternal;\n\t}/" /etc/nginx/sites-available/default
+sudo chown -R $USER:$USER etc/nginx/
+sed -i "s/include \/etc\/nginx\/sites-enabled\/\*;/include \/etc\/nginx\/sites-enabled\/\*;\n\tadd_header X-Served-By \"$HOSTNAME\";/" /etc/nginx/nginx.conf
+sudo service nginx restart
