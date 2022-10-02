@@ -92,7 +92,7 @@ sylvain@ubuntu:~$
 ? Score: 0.00% (Checks completed: 0.00%)  
 > Be sure to read the Docker concept page  
 > 
-> In this first debugging project, you will need to get Apache to run on the container and to return a page containing Hello Holberton when querying the root of it.  
+> In this first debugging project, you will need to get [Apache](https://en.wikipedia.org/wiki/Apache_HTTP_Server) to run on the container and to return a page containing Hello Holberton when querying the root of it.  
 **Example:**  
 ```
 vagrant@vagrant:~$ docker run -p 8080:80 -d -it holbertonschool/265-0
