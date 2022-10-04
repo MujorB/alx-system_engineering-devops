@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Issue with server not running, start server
+
+service apache2 start
