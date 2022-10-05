@@ -1,5 +1,0 @@
-#!/usr/bin/env bash
-# Web server debugging, more shorter version.
-sed -i 's/8080/80/g' /etc/nginx/sites-enabled/default
-pkill -9 nginx
-service nginx restart
