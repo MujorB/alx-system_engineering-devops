@@ -15,8 +15,9 @@ Calculation:  0.0% + (0.0% * 0.0%)  == 0.0%
 ## Concepts
 > For this project, we expect you to look at these concepts:
 > 
-> - [Network basics]()  
-> - [Web stack debugging]()  
+> - [Network basics](https://github.com/MujorB/alx-system_engineering-devops/blob/main/0x0D-web_stack_debugging_0/concept/networkBasics.md)  
+> - [Web stack debugging](https://github.com/MujorB/alx-system_engineering-devops/blob/main/0x0D-web_stack_debugging_0/concept/webstackDebugging.md)  
+> ![image](https://user-images.githubusercontent.com/95404943/194042397-f94f5d49-9ca0-4ab4-9f0c-2fc8170ff5b8.png)
 
 ## Requirements  
 > **General**  
