@@ -13,13 +13,18 @@ An auto review will be launched at the deadline
 > - [Web stack debugging](https://github.com/MujorB/alx-system_engineering-devops/blob/main/0x0D-web_stack_debugging_0/concept/webstackDebugging.md)
 
 ## `Background Context`
-Your servers without a firewall…
+> ![image](https://user-images.githubusercontent.com/95404943/194925733-951855f6-0240-4941-83e3-b1371ef3d6b2.png)
+> 
+> Your servers without a firewall…
+> ![image](https://user-images.githubusercontent.com/95404943/194925786-4d97ef3f-a495-4971-9c77-d26621329c45.png)
+
 
 ## `Resources`
 **Read** or **watch:**
 
 > [What is a firewall](https://en.wikipedia.org/wiki/Firewall_%28computing%29)  
-> More Info  
+> 
+> **More Info**  
 > As explained in the web stack debugging guide concept page, `telnet` is a very good tool to check if sockets are open with `telnet` `IP` `PORT`. For example, if you want to check if port 22 is open on web-02:
 ```bash
 sylvain@ubuntu$ telnet web-02.holberton.online 22
