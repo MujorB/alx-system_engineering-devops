@@ -18,11 +18,13 @@ Calculation:  100.0% + (100.0% * 100.0%)  == 200.0%
 > A way to easily assess this is to simply ask an engineer to explain how a software system works. They can have a general overview of the flow or can choose to dig deep in a certain area.
 > 
 > Let’s practice by exploring the infrastructure side (network, servers, security…) of the question.
+![image](https://user-images.githubusercontent.com/95404943/194835238-73ce14ab-2468-4841-a78e-f9e7efe41b46.png)
 ## **Requirements**
 > **General**  
-> You can post your blog post on the platform of your choice, LinkedIn or Medium are good ones  
-> A README.md file, at the root of the folder of the project, is mandatory  
-> More Info  
+> - You can post your blog post on the platform of your choice, LinkedIn or Medium are good ones  
+> - A README.md file, at the root of the folder of the project, is mandatory  
+> - More Info
+>  
 > Manual QA Review  
 > It is your responsibility to request a review for your blog from a peer before the project’s deadline. If no peers have been reviewed, you should request a review from a TA or staff member.  
 # Tasks
@@ -68,9 +70,10 @@ File: 0-blog_post
 > - that the application server generates the web page  
 > - that the application server request data from the database  
 > 
-> Gliffy is free and what I personally use, but feel free to use what fits you best.
+> [Gliffy](https://www.gliffy.com) is free and what I personally use, but feel free to use what fits you best.
 > 
 > Some unrelated examples:
+> ![image](https://user-images.githubusercontent.com/95404943/194836051-89b7d63f-8af4-47fa-b406-23725aae366d.png)
 > 
 > Share the URL of your diagram image in your answer file and il the field below.
 
