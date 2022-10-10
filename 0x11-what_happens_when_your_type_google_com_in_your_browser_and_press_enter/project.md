@@ -73,6 +73,7 @@ File: 0-blog_post
 > [Gliffy](https://www.gliffy.com) is free and what I personally use, but feel free to use what fits you best.
 > 
 > Some unrelated examples:
+> 
 > ![image](https://user-images.githubusercontent.com/95404943/194836051-89b7d63f-8af4-47fa-b406-23725aae366d.png)
 > 
 > ![image](https://user-images.githubusercontent.com/95404943/194836301-844a7768-7b96-46e8-a373-53c6c5608f8e.png)
