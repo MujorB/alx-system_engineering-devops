@@ -1,0 +1,12 @@
+#! /usr/bin/env bash
+# Script to allow incoming traffic only from a specific port
+
+apt update -y
+apt-get install ufw
+ufw enable
+ufw default allow outgoing
+ufw default deny incoming
+ufw allow ssh
+ufw allow 443/tcp
+ufw allow 80/tcp
+ufw allow reload
