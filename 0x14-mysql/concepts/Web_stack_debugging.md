@@ -1,0 +1,1 @@
+# [Web stack debugging](https://github.com/MujorB/alx-system_engineering-devops/blob/main/0x0D-web_stack_debugging_0/concept/webstackDebugging.md)
