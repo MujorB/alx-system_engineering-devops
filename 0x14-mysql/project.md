@@ -153,6 +153,7 @@ Directory: 0x14-mysql
     
 # `4. Setup a Primary-Replica infrastructure using MySQL` `mandatory`
 Score: 100.0% (Checks completed: 100.0%)
+> ![image](https://user-images.githubusercontent.com/95404943/195666352-3d9736ec-c891-4abd-b4a6-6eff7436ac20.png)
 > Having a replica member on for your MySQL database has 2 advantages:
 > 
 > Redundancy: If you lose one of the database servers, you will still have another working one and a copy of your data  
