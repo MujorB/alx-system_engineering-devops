@@ -153,8 +153,9 @@ Directory: 0x14-mysql
     
 # `4. Setup a Primary-Replica infrastructure using MySQL` `mandatory`
 Score: 100.0% (Checks completed: 100.0%)
-> ![image](https://user-images.githubusercontent.com/95404943/195666352-3d9736ec-c891-4abd-b4a6-6eff7436ac20.png)
-> Having a replica member on for your MySQL database has 2 advantages:
+> ![image](https://user-images.githubusercontent.com/95404943/195666352-3d9736ec-c891-4abd-b4a6-6eff7436ac20.png)  
+> 
+> Having a replica member on for your MySQL database has 2 advantages:  
 > 
 > Redundancy: If you lose one of the database servers, you will still have another working one and a copy of your data  
 > Load distribution: You can split the read operations between the 2 servers, reducing the load on the primary member and improving query response speed  
@@ -264,7 +265,9 @@ Directory: 0x14-mysql
 File: 4-mysql_configuration_primary, 4-mysql_configuration_replica
     
 # `5. MySQL backup` `mandatory`
-Score: 100.0% (Checks completed: 100.0%)
+Score: 100.0% (Checks completed: 100.0%)  
+> ![image](https://user-images.githubusercontent.com/95404943/195666751-2156a41b-ae9e-4d4f-824a-b8ce026b2f88.png)  
+> [Flooded Data center](https://www.youtube.com/watch?v=ANU-oSE5_hU)  
 > What if the data center where both your primary and replica database servers are hosted are down because of a power outage or even worse: flooding, fire? Then all your data would inaccessible or lost. That’s why you want to backup and store them in a different system in another physical location. This can be achieved by dumping your MySQL data, compressing them and storing them in a different data center.
 > 
 > Write a Bash script that generates a MySQL dump and creates a compressed archive out of it.
