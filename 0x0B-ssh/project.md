@@ -13,7 +13,7 @@ Optional: 65.0%
 Calculation:  65.0% + (65.0% * 65.0%)  == 107.25%
 ```
 ## `Background Context`
-> 
+> ![image](https://user-images.githubusercontent.com/95404943/195665413-0492be91-1eb5-4dce-8826-9b93824a3e7e.png)  
 > Along with this project, you have been attributed an Ubuntu server, living in a datacenter far far away. Like level 2 of the application process, you will connect using ssh. But contrary to level 2, you will not connect using a password but an RSA key. We’ve configured your server with the public key you created in the first task of a [previous project](https://github.com/MujorB/alx-system_engineering-devops/blob/main/0x04-loops_conditions_and_parsing/project.md) shared in your [intranet profile](https://alx-intranet.hbtn.io/users/my_profile).
 > 
 > You can access your [server](https://alx-intranet.hbtn.io/servers) information in the my servers section of the intranet, each line with contains the IP and username you should use to connect via ssh.
