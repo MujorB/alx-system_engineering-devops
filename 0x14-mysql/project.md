@@ -18,7 +18,8 @@ Optional: no optional tasks
 > - [Web stack debugging](concepts/Web_stack_debugging.md)  
 > - [[How to] Install mysql 5.7](concepts/How_to_Install_mysql.md)  
 
-## **`Resources`**
+> ![image](https://user-images.githubusercontent.com/95404943/195666017-5efc9f45-f013-48b4-ae3c-b7d892f6d2c3.png)
+> ## **`Resources`**
 > **Read** or **watch**:  
 > 
 > - [What is a primary-replica cluster](https://www.digitalocean.com/community/tutorials/how-to-choose-a-redundancy-plan-to-ensure-high-availability#sql-replication)  
