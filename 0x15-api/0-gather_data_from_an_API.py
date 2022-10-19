@@ -5,6 +5,7 @@ their TODO list progress"""
 import requests
 import sys
 
+
 def get_user_todo_list():
     userId = sys.argv[1]
     url = 'https://jsonplaceholder.typicode.com/users/%s' % userId
